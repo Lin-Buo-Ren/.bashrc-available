@@ -1,0 +1,5 @@
+# Include custom bash runcommands
+if [ -z "$_BASHRC_AVAILABLE_INSTALLED" ]; then
+	source ~/.bashrc-enabled/*.bashrc
+	_BASHRC_AVAILABLE_INSTALLED=1
+fi
